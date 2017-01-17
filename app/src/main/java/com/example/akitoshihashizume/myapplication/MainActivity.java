@@ -25,4 +25,10 @@ public class MainActivity extends AppCompatActivity {
         number++;
         textView.setText(String.valueOf(number));
     }
+
+    public void minus(View v){
+
+        number --;
+        textView.setText(String.valueOf(number));
+    }
 }
